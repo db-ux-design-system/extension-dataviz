@@ -1,0 +1,52 @@
+name: 🐞 Bug Report - Version 3
+description: Create a report to help us improve
+labels: ["🧑‍🧒‍🧒communityFeedback"]
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 
+        Please make sure that you are using the latest version of the tool. The use of an older version can lead to errors in the components that no longer occur in the current version.
+
+
+  - type: input
+    id: ds-version
+    attributes:
+      label: Which version is impacted?
+      description: Please let us know which version number is affected.
+      placeholder: ex. 3.0.0-Beta-1 or 3.0.13
+    validations:
+      required: false
+      
+  - type: textarea
+    id: reproduction_fiddle
+    attributes:
+      description: A clear and concise description of what the bug is. ⚠️ Please also mention the density if you are not working with regular.
+      label: Reproduction case
+      placeholder: How can we reproduce the error?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      description: A clear and concise description of what the bug is.
+      label: Expected 
+      placeholder: What did you expect to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      description: If applicable, add screenshots to help explain your problem.
+      label: Screenshots
+      placeholder: Screenshots often help us to better understand the problem.
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Add any other context about the problem here.
+    validations:
+      required: false
