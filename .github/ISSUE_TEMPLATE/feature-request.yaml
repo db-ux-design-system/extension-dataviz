@@ -2,6 +2,7 @@ name: ✨ Feature request
 description: Request a new feature to be added to DB UX Design System.
 labels: ["🧑‍🧒‍🧒communityFeedback"]
 type: Feature
+projects: "db-ux-design-system/12"
 body:
   - type: markdown
     attributes:
